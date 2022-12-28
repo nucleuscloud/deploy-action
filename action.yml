@@ -1,0 +1,9 @@
+name: deploy
+description: Deploy using Nucleus CLI, on GitHub Actions runners
+inputs:
+  environment:
+    description: Version of Nucleus CLI to install
+    required: true
+runs:
+  using: node16
+  main: dist/index.js

@@ -1,4 +1,4 @@
-name: deploy
+name: Nucleus - Deploy
 description: Deploy using Nucleus CLI, on GitHub Actions runners
 inputs:
   environment:

@@ -1,0 +1,8 @@
+cliVersion: nucleus-cli/v1alpha1
+spec:
+  serviceName: golang-hello
+  serviceRuntime: docker
+  image: gcr.io/knative-samples/helloworld-go
+  isPrivate: false
+  vars:
+    DEFAULT_NAME: Everybody

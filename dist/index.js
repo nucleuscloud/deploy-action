@@ -46,7 +46,7 @@ function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             const environment = core.getInput('environment', { required: true });
-            yield exec.exec('nucleus', ['deploy', '-env', environment]);
+            yield exec.exec('nucleus', ['deploy', '--env', environment]);
             return { environment };
         }
         catch (error) {
